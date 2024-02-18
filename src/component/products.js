@@ -132,7 +132,7 @@ const ProductComponet = ({ data }) => {
             width: '25%',
              ...getColumnSearchProps('title'),
             render: (text) => <a onClick={() => handleModel()}>{text}</a>,
-            sorter: (a, b) => a.title.length - b.title.length,
+            sorter: (a, b) => a.title.localeCompare(b.title),
             sortDirections: ['descend', 'ascend'],
             
         },
@@ -143,7 +143,7 @@ const ProductComponet = ({ data }) => {
             width: '25%',
 
             ...getColumnSearchProps('price'),
-            sorter: (a, b) => a.price.length - b.price.length,
+            sorter: (a, b) => a.price - b.price,
             sortDirections: ['descend', 'ascend'],
         },
         {
