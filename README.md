@@ -1,30 +1,29 @@
-<!-- # Getting Started with Create React App
- npx create-react-app project_name
-## Available Scripts
+## please install below dependencies before runing the applications
 
-In the project directory, you can run:
+# npm install antd
 
-### `npm start` -->
+# npm install react-router-rom
 
-# please install below dependencies before runing the applications
+# npm install react-highlight-words
 
-## npm install antd
-## npm install react-router-rom
-## npm install react-highlight-words
+## please run below command (when clone the application from github)
 
-# please run below command (when clone the application from github)
+# npm install
 
-## npm install
+## To Start the applicaation
 
+# npm start
 
-# To Start the applicaation 
-## npm start
+## Credentials(Given in Requirments)
 
+# username: kminchelle
+
+# password: 0lelplR
 
 ## Project code structure
 
- ## src > component > pages
- ## src > index.js
- ## src > app.js
+# src > component > pages
 
+# src > index.js
 
+# src > app.js
