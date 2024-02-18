@@ -35,7 +35,7 @@ const RouterComponent = () => {
     //  page routing
       <Routes>
         <Route
-          path="/login"
+          path="/"
           element={
             <Routes>
               <Route path="/" element={<Login />} />
